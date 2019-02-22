@@ -27,18 +27,14 @@ char * test_vc_strrchr(char *s, int c)
 		if (s[i] == c)
 		{
 			result = &s[i];
+			printf("%s", result);
 			return result;
 		}
 
 	}
+	printf(NULL);
 	return NULL;
 
-}
-
-int main()
-{
-	char *s = "abcedfghijklnmopqrstuvwxyz";
-	printf("%s", test_vc_strrchr(s, 122));
 }
 
 
