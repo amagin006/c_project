@@ -1,5 +1,4 @@
 
-#include "pch.h"
 #include <stdio.h>
 
 
@@ -23,10 +22,4 @@ void test_vc_strclr(char *s)
 	{
 		new[i] = NULL;
 	}
-}
-
-int main()
-{
-	char *s = "asd";
-	test_vc_strclr(s);
 }

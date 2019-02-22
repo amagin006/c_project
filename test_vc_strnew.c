@@ -14,6 +14,7 @@ char *test_vc_strnew(size_t size)
 	else {
 		return NULL;
 	}
+	printf("%s", ptr);
 	return ptr;
 }
 

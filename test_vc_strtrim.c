@@ -1,4 +1,3 @@
-#include "pch.h"
 #include <stdio.h>
 
 
@@ -29,14 +28,10 @@ char *test_vc_strtrim(char const *s) {
 		}
 	}
 	else {
+		printf("NULL");
 		return NULL;
 	}
 	new[newP] = '\0';
+	printf("%s", new);
 	return new;
-}
-
-int main()
-{
-	char *s = " hello";
-	printf("%s", test_vc_strtrim(s));
 }
