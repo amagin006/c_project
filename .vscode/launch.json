@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/c_function",
+            "program": "${workspaceFolder}/vc_strstr",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
