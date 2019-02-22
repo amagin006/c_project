@@ -14,8 +14,3 @@ int test_vc_isprint(int c)
 	return 0;
 
 }
-
-int main()
-{
-	printf("%d", test_vc_isascii(1));
-}

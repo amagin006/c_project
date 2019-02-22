@@ -12,13 +12,9 @@ char *test_vc_strnew(size_t size)
 		}
 	}
 	else {
+		printf(NULL);
 		return NULL;
 	}
 	printf("%s", ptr);
 	return ptr;
-}
-
-int main()
-{
-	char *ptr = test_vc_strnew(10);
 }
