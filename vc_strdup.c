@@ -16,3 +16,4 @@ char *vc_strdup(char *src)
     dst[i] = '\0';
     return dst;
 }
+

@@ -1,5 +1,4 @@
 
-#include "pch.h"
 #include <stdio.h>
 
 int isprint(int c)

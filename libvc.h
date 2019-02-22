@@ -1,5 +1,6 @@
 #ifndef LIBVC_H
 #define LIBVC_H
+#include <stdio.h>
 
 // vc_atoi
 int vc_atoi(char *str);
