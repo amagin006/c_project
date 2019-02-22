@@ -7,3 +7,6 @@ int main(){
     
     return 0;
 }
+
+
+gcc main.c -L. -lvc -o main  
