@@ -51,13 +51,13 @@ void *vc_memmove(void *dst, const void *src, size_t len);
 void *vc_memset(void *str, int c, size_t len);
 
 // vc_putchar
-
+void vc_putchar(char c);
 
 // vc_putendl
-
+void vc_putendl(char const *s);
 
 // vc_putnbr
-
+void printnumber(int n);
 
 // vc_puts(vc_putstr)
 void vc_putstr(char *str);
@@ -78,7 +78,7 @@ int vc_strcmp(char *s1, char *s2);
 char *vc_strcpy(char *dest, char *src);
 
 // vc_strdel
-
+void vc_strdel(char **as);
 
 // vc_strdup
 char *vc_strdup(char *src);
@@ -87,7 +87,7 @@ char *vc_strdup(char *src);
 void vc_striter(char *s, void (*f)(char *));
 
 // vc_strjoin
-
+char *vc_strjoin(char const *s1, char const *s2);
 
 // vc_strlcat
 unsigned int vc_strlcat(char *dest, char *src, unsigned int size);
@@ -111,7 +111,7 @@ char *vc_strncpy(char *dest, char *src, size_t n);
 char *vc_strnew(size_t size);
 
 // vc_strnstr
-
+char *vc_strnstr(const char *big, const char *little, size_t len);
 
 // vc_strrchr
 char *strrchr(const char *s, int c);
@@ -123,7 +123,7 @@ char **vc_strsplit(char const *s, char c);
 char *vc_strstr(char *str, char *to_find);
 
 // vc_strsub
-
+char *vc_strsub(char const *s, size_t start, size_t len);
 
 // vc_strtrim
 char *vc_strtrim(char const *s);
