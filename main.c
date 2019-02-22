@@ -3,7 +3,6 @@
 int main(){
     printf("============\n");
     char str[50] = "Hello World";
-    printf("===========\m");
-    
+    printf("===========\n");
     return 0;
 }

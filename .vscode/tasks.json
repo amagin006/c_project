@@ -9,7 +9,7 @@
             "command": "gcc",
             "args": [
                 "-g",
-                "vc_memccpy.c",
+                "vc_putnbr.c",
                 "-o",
                 "c_function"
             ],
