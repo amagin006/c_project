@@ -1,6 +1,7 @@
 
 #include "pch.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 
 static int sizeofArray(char *s)
@@ -14,13 +15,14 @@ static int sizeofArray(char *s)
 }
 
 
-char *strrchr(char *s, int c)
+char * test_vc_strrchr(char *s, int c)
 {
 	
 	int size = sizeofArray(s);
 	char *result = (char*)malloc(sizeof(char) * size);
 
-	for (int i = size; i >= 0 ; i--)
+
+	for (int i = size - 1 ; i >= 0 ; i--)
 	{
 		if (s[i] == c)
 		{
@@ -30,9 +32,14 @@ char *strrchr(char *s, int c)
 
 	}
 	return NULL;
-	
-	
-
 
 }
+
+int main()
+{
+	char *s = "abcedfghijklnmopqrstuvwxyz";
+	printf("%s", test_vc_strrchr(s, 122));
+}
+
+
 
