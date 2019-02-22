@@ -14,13 +14,13 @@ int vc_isalnum(int c);
 int vc_isalpha(int ch);
 
 // vc_isascii
-
+int isascii(int c);
 
 // vc_isdigit
 int vc_isdigit(int num);
 
 // vc_isprint
-
+int isprint(int c);
 
 // vc_itoa
 char *vc_itoa(int n);
@@ -65,10 +65,10 @@ void vc_putstr(char *str);
 char *vc_strcat(char *dest, char *src);
 
 // vc_strchr
-
+char *vc_strchr(const char *s, int c);
 
 // vc_strclr
-
+void vc_strclr(char *s);
 
 // vc_strcmp
 int vc_strcmp(char *s1, char *s2);
@@ -107,13 +107,13 @@ int vc_strncmp(char *s1, char *s2, unsigned int n);
 char *vc_strncpy(char *dest, char *src, size_t n);
 
 // vc_strnew
-
+char *vc_strnew(size_t size);
 
 // vc_strnstr
 
 
 // vc_strrchr
-
+char *strrchr(const char *s, int c);
 
 // vc_strsplit
 char **vc_strsplit(char const *s, char c);
@@ -125,12 +125,12 @@ char *vc_strstr(char *str, char *to_find);
 
 
 // vc_strtrim
-
+char *vc_strtrim(char const *s);
 
 // vc_tolower
-
+int tolower(int c);
 
 // vc_toupper
-
+int toupper(int c);
 
 #endif //LIBVC_H
