@@ -1,6 +1,4 @@
-#include "pch.h"
 #include <stdio.h>
-
 
 static int sizeofArray(char *s)
 {
