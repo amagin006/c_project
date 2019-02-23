@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void printnumber(int n)
+void vc_putnbr(int n)
 {
 
     if (n < 0)

@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int isascii(int c)
+int vc_isascii(int c)
 {
 	if (c > 0 && c < 128)
 	{
