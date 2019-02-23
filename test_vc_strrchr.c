@@ -15,7 +15,7 @@ static int sizeofArray(char *s)
 }
 
 
-char * test_vc_strrchr(char *s, int c)
+char *vc_strrchr(char *s, int c)
 {
 	
 	int size = sizeofArray(s);
@@ -37,5 +37,10 @@ char * test_vc_strrchr(char *s, int c)
 
 }
 
+void test vc_strrchr()
+{
+	char *s = "abcdefghijklnmopqrstuvwxyz";
+	vc_strrchr(s, 88);
+}
 
 

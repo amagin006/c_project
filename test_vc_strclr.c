@@ -12,7 +12,7 @@ static int sizeofArray(char *s)
 	return i;
 }
 
-void test_vc_strclr(char *s)
+void vc_strclr(char *s)
 {
 	int size = sizeofArray(s);
 	char *new = &s;
@@ -22,4 +22,11 @@ void test_vc_strclr(char *s)
 	{
 		new[i] = NULL;
 	}
+}
+
+
+void test_vc_strclr()
+{
+	char *s = "hello"
+	vc_strclr(s);
 }

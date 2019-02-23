@@ -2,7 +2,7 @@
 //#include "pch.h"
 #include <stdio.h>
 
-int test_vc_isascii(int c)
+int vc_isascii(int c)
 {
 	if (c > 0 && c < 128)
 	{
@@ -14,4 +14,11 @@ int test_vc_isascii(int c)
 
 	return 0;
 
+}
+
+void test_vc_isascii()
+{
+
+
+	vc_isascii(20);
 }

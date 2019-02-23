@@ -1,7 +1,9 @@
 
 #include <stdio.h>
 
-int test_vc_toupper(int c)
+
+
+int vc_toupper(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
@@ -15,4 +17,8 @@ int test_vc_toupper(int c)
 	}
 	printf("%d", 0);
 	return 0;
+}
+void test_vc_toupper()
+{
+	vc_toupper(65);
 }

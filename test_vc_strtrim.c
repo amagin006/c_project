@@ -12,7 +12,7 @@ static int sizeofArray(char *s)
 }
 
 
-char *test_vc_strtrim(char const *s) {
+char *vc_strtrim(char const *s) {
 	
 	int size = sizeofArray(s);
 	int newP = 0;
@@ -34,4 +34,10 @@ char *test_vc_strtrim(char const *s) {
 	new[newP] = '\0';
 	printf("%s", new);
 	return new;
+}
+
+void test_vc_strtrim()
+{
+	char *s = "hello";
+	vc_strtrim(s);
 }

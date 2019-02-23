@@ -2,7 +2,7 @@
 #include "pch.h"
 #include <stdio.h>
 
-char *test_vc_strnew(size_t size)
+char *vc_strnew(size_t size)
 {
 	char *ptr = (char*) malloc(sizeof(char) * size);
 	if (ptr != NULL) {
@@ -17,4 +17,11 @@ char *test_vc_strnew(size_t size)
 	}
 	printf("%s", ptr);
 	return ptr;
+}
+
+void test_vc_strnew()
+{
+
+	vc_strnew(20);
+
 }
