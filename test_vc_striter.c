@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include "libvc.h"
 
-void *next(char *ch) {
+static void *next(char *ch) {
   *ch = *ch - 1;
 }
-
 
 void test_vc_striter() {
     char *msg = "HELLO";

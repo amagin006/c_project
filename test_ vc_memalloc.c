@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "libvc.h"
 
-int test_vc_memalloc(int ch) {
+void test_vc_memalloc() {
   char *ptr = (char *)vc_memalloc(10);
   printf("========== vc_memalloc =============\n");
   printf("========== expect : 0 0 0 0 0 0 0 0 0 0 =============\n");
