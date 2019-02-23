@@ -7,5 +7,4 @@ void *vc_memset(void *str, int c, size_t len)
         *p++ = (unsigned char) c;
     return str;
 }
-
-
+ 

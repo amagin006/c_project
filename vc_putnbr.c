@@ -39,9 +39,3 @@ void vc_putnbr(int n)
         write(1,"\n",1);
     }
 }
-
-int main(){
-    int x = 876;
-    printnumber(x);
-    return 0;
-}
