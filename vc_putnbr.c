@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void printnumber(int n)
+void vc_putnbr(int n)
 {
 
     if (n < 0)
@@ -38,10 +38,4 @@ void printnumber(int n)
         write(1,res,(count+1));
         write(1,"\n",1);
     }
-}
-
-int main(){
-    int x = 876;
-    printnumber(x);
-    return 0;
 }

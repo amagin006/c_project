@@ -5,4 +5,3 @@ void vc_putchar(char c){
     write(1, str, 2);
     write(1,"\n", 1);
 }
-
