@@ -57,7 +57,7 @@ void vc_putchar(char c);
 void vc_putendl(char const *s);
 
 // vc_putnbr
-void printnumber(int n);
+void vc_putnbr(int n);
 
 // vc_puts(vc_putstr)
 void vc_putstr(char *str);

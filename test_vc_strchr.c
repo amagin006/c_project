@@ -10,12 +10,13 @@ static void end() {
 }
 
 void test_vc_strchr() {
-  start("vc_strchr");
-  char str[] = "abcdefg";
-  char *res = vc_strchr(str, 'x');
-  if (res == NULL) printf("NULL");
-  else printf("%s", res);
-  end();
+  printf("---------test-------");
+  // start("vc_strchr");
+  // char str[] = "abcdefg";
+  // char *res = vc_strchr(str, 'c');
+  // if (res == NULL) printf("NULL");
+  // else printf("%s", res);
+  // end();
 }
 
 
