@@ -27,6 +27,6 @@ void vc_strclr(char *s)
 
 void test_vc_strclr()
 {
-	char *s = "hello"
+	char *s = "hello";
 	vc_strclr(s);
 }

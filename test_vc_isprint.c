@@ -1,5 +1,4 @@
 
-#include "pch.h"
 #include <stdio.h>
 
 int vc_isprint(int c)
@@ -15,7 +14,6 @@ int vc_isprint(int c)
 
 }
 
-void test_vc_isprint(
-
+void test_vc_isprint(){
 	vc_isprint(20);
-)
+}

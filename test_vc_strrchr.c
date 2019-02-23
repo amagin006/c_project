@@ -37,7 +37,7 @@ char *vc_strrchr(char *s, int c)
 
 }
 
-void test vc_strrchr()
+void test_vc_strrchr()
 {
 	char *s = "abcdefghijklnmopqrstuvwxyz";
 	vc_strrchr(s, 88);
