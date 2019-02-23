@@ -1,5 +1,3 @@
-
-#include "pch.h"
 #include <stdio.h>
 
 char *vc_strnew(size_t size)
