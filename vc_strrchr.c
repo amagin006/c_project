@@ -14,7 +14,6 @@ static int sizeofArray(char *s)
 
 
 char *vc_strrchr(const char *s, int c)
-
 {
 	
 	int size = sizeofArray(s);
