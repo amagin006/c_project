@@ -22,6 +22,7 @@ void vc_strclr(char *s)
 	{
 		new[i] = NULL;
 	}
+
 }
 
 

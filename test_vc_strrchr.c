@@ -1,5 +1,3 @@
-
-#include "pch.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -32,13 +30,14 @@ char *vc_strrchr(char *s, int c)
 		}
 
 	}
-	printf(NULL);
+	printf("null");
 	return NULL;
 
 }
 
 void test_vc_strrchr()
 {
+	
 	char *s = "abcdefghijklnmopqrstuvwxyz";
 	vc_strrchr(s, 88);
 }

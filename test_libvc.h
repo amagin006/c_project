@@ -57,7 +57,7 @@ void test_vc_putchar();
 void test_vc_putendl();
 
 // test_vc_putnbr
-void printnumber();
+void test_vc_putnbr();
 
 // test_vc_puts()
 void test_vc_putstr();
