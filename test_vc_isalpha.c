@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "libvc.h"
 
 void test_vc_isalpha() {
 
