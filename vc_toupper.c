@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int toupper(int c)
+int vc_toupper(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
