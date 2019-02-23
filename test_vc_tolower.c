@@ -2,7 +2,7 @@
 //#include "pch.h"
 #include <stdio.h>
 
-int test_vc_tolower(int c)
+int vc_tolower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
@@ -16,4 +16,10 @@ int test_vc_tolower(int c)
 	}
 	printf("%d", 0);
 	return 0;
+}
+
+
+void test_vc_tolower()
+{
+	vc_tolower(88);
 }

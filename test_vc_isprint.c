@@ -2,7 +2,7 @@
 #include "pch.h"
 #include <stdio.h>
 
-int test_vc_isprint(int c)
+int vc_isprint(int c)
 {
 	if (c > 31 && c < 128)
 	{
@@ -14,3 +14,8 @@ int test_vc_isprint(int c)
 	return 0;
 
 }
+
+void test_vc_isprint(
+
+	vc_isprint(20);
+)
