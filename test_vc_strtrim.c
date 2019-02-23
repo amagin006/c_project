@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 static int sizeofArray(char *s)
 {
 	int i = 0;
@@ -11,7 +12,7 @@ static int sizeofArray(char *s)
 }
 
 
-char *vc_strtrim(char *s) {
+char *test_vc_strtrim(char const *s) {
 	
 	int size = sizeofArray(s);
 	int newP = 0;
@@ -27,8 +28,10 @@ char *vc_strtrim(char *s) {
 		}
 	}
 	else {
+		printf("NULL");
 		return NULL;
 	}
 	new[newP] = '\0';
+	printf("%s", new);
 	return new;
 }
