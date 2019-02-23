@@ -1,5 +1,4 @@
 
-#include "pch.h"
 #include <stdio.h>
 
 
@@ -14,7 +13,7 @@ static int sizeofArray(char *s)
 }
 
 
-char *strrchr(const char *s, int c)
+char *vc_strrchr(const char *s, int c)
 {
 	
 	int size = sizeofArray(s);

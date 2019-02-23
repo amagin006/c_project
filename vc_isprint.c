@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int isprint(int c)
+int vc_isprint(int c)
 {
 	if (c > 31 && c < 128)
 	{
